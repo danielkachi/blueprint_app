@@ -1,0 +1,166 @@
+name: blueprint_app2
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.3+13
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  built_value: ^8.1.0
+  #  flutter_swiper: ^1.1.6
+  card_swiper: ^3.0.1
+  date_format: ^2.0.7
+  get_it: ^7.6.7
+  json_annotation: ^4.0.1
+  dio: ^5.4.1
+  image_picker: ^1.0.7
+  url_launcher: ^6.0.2
+  video_player: ^2.1.15
+  http: ^0.13.0
+  firebase_auth: ^4.16.0 # ^3.3.8
+  firebase_core: ^2.24.2 # ^1.10.0
+  firebase_database: ^10.4.0 # ^9.0.7
+  firebase_messaging: ^14.7.10 # ^11.2.0
+  flutter_local_notifications: ^16.3.2
+  overlay_support: ^2.1.0
+  connectivity: ^3.0.6
+  flutter_paystack: ^1.0.4
+  fluttertoast: ^8.2.4
+  path: ^1.6.4
+  upgrader: ^9.0.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  flutter_theoaks_paystack: ^1.0.6
+
+  shared_preferences: any
+  intl: any
+  logging: any
+  connectivity_for_web: any
+  firebase_auth_web: any
+  firebase_core_web: any
+  firebase_messaging_web: any
+  image_picker_for_web: any
+  shared_preferences_web: any
+  url_launcher_web: any
+  video_player_web: any
+  #  flutter_web_plugins:
+  http_parser: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.8
+  built_value_generator: ^8.1.0
+  json_serializable: ^6.7.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/home.png
+    - assets/logowt.png
+    - assets/gg.png
+    - assets/youtube.png
+    - assets/error.png
+    - assets/lion.jpeg
+    - assets/llogo.png
+    - assets/im.png
+    - assets/appic.png
+    - assets/user_ic.png
+    - assets/hamburg.png
+    - assets/no_signal.jpeg
+    - assets/notif.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: fonts/Avenir-Heavy.ttf
+        - asset: fonts/Avenir-Light.ttf
+        - asset: fonts/Avenir-Roman.ttf
+          weight: 700
+
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
+
+    - family: BluePrintCalendar
+      fonts:
+        - asset: fonts/BluePrintCalendar.ttf
+
+    - family: BluePrintRefer
+      fonts:
+        - asset: fonts/BluePrintRefer.ttf
+
+    - family: BlueprintTrade
+      fonts:
+        - asset: fonts/BlueprintTrade.ttf
+
+    - family: BluePrintProfile
+      fonts:
+        - asset: fonts/BluePrintProfile.ttf
+
+    - family: BluePrintLock
+      fonts:
+        - asset: fonts/BluePrintLock.ttf
+
+    - family: BluePrintEmail
+      fonts:
+        - asset: fonts/BluePrintEmail.ttf
+
+    - family: BluePrintCall
+      fonts:
+        - asset: fonts/BluePrintCall.ttf
+
+    - family: Blueprintadmintrade
+      fonts:
+        - asset: fonts/Blueprintadmintrade.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
